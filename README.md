@@ -15,8 +15,8 @@ simple as `setTextColor` will call `getDrawableState` and expose the problem.
 
 ## Demo
 
-In the following demo, we attach a fragment (defined in [`MainFragment`](app/src/main/java/wtf/log/wascldrawablestateissue/MainFragment))
-at some point after the activity (defined in [`MainActivity`](app/src/main/java/wtf/log/wascldrawablestateissue/MainActivity)) is created, and
+In the following demo, we attach a fragment (defined in [`MainFragment`](app/src/main/java/wtf/log/wascldrawablestateissue/MainFragment.kt))
+at some point after the activity (defined in [`MainActivity`](app/src/main/java/wtf/log/wascldrawablestateissue/MainActivity.kt)) is created, and
 while the window has focus. The background tint of the button (defined in [`button_tint_selector`](app/src/main/res/color/button_tint_selector.xml))
 defines the disabled state as red with a default state of green.
 
